@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.flex-box{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-spacebetween{
+    justify-content: space-between;
+}
+
+.flex-di-column{
+    flex-direction: column;
+}
+.flex-di-row{
+    flex-direction: row;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+
+.mx-0{
+    margin: 0;
+}
+
+.pd-0{
+    padding: 0;
+}
+
+
+.section-padding{
+    padding: 50px 40px;
+}
+
+.section-margin{
+    padding: 50px 0px;
+}
+
+
+.normal-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: #ffff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+}
+
+
+.normal-btn:hover{
+    background-color: rgb(255, 154, 3);
+    color: #ffff;
+  }
+
+  @media(max-width:799px){
+    .justify-content-spacebetween {
+        justify-content: space-between;
+    }
+  }
+
+
+  @media(max-width:477px){
+  
+
+    .section-padding {
+        padding: 45px 0px;
+    }
+
+
+    .justify-content-spacebetween {
+        justify-content: space-between;
+    }
+
+    .pro-container  {
+        justify-content: center;
+    }
+
+  }
