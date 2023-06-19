@@ -115,7 +115,7 @@
 
  /* HOMEPAGE */
  .first-page {
-     background-image: url(/images/img-1.png);
+     background-image: url(images/img-1.png);
      background-size: cover;
 
      height: 40vw;
@@ -322,7 +322,7 @@
 
 
  .banner {
-     background-image: url(/images/bannerimg-1.png);
+     background-image: url(images/bannerimg-1.png);
      background-repeat: no-repeat;
      background-position: top;
      width: 100%;
@@ -348,7 +348,7 @@
  }
 
  .newsletter {
-     background-image: url(/images/bgimg-1.jpg);
+     background-image: url(images/bgimg-1.jpg);
      background-repeat: no-repeat;
      background-position: center;
      margin: 50px 0px;
