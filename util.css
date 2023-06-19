@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -46,7 +45,7 @@
 }
 
 .section-margin{
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 
 
