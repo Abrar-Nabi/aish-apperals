@@ -1,73 +1,45 @@
  .header {
-    box-shadow: 0 5px 15px rgb(183, 181, 181);
-    background-color: #eff9f9;
+     box-shadow: 0 5px 15px rgb(183, 181, 181);
+     background-color: #eff9f9;
      position: sticky;
      top: 0;
      left: 0;
      z-index: 999;
-     
- }
-/* 
- .brand {
-
-     background-image: url(img/1.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
 
  }
 
+ 
 
- .header-marque {
-     height: 15px;
-     font-weight: bold;
- }
-
-
- .brand h1 {
-     color: #ffff;
-     font-size: 3.5rem;
-     line-height: 3rem;
-     letter-spacing: 2px;
+ .header .logo-img {
+     /* border: 1px solid black; */
+     margin: 1px 18px;
 
  }
 
- .brand h2 {
-     color: rgb(244, 156, 23);
-     font-size: 3rem;
-     font-weight: bold;
-     letter-spacing: 2px;
-     line-height: 2.5rem;
- } */
+ .header .logo-img-text {
 
-
- .header .logo-img{
-    /* border: 1px solid black; */
-    margin: 1px 18px;
-    
+     color: #000;
  }
 
- .header .logo-img-text{
-   
-    color: #000;
- }
- .logo-img h1{
-    letter-spacing: 6px;
-    font-size: 40px;
+ .logo-img h1 {
+     letter-spacing: 6px;
+     font-size: 40px;
 
-    
 
-    
- }
- .logo-img h2{
-    font-family: 'Big Shoulders Display', cursive;
-    letter-spacing: 8px;
-    padding: 0px 12px 8px 12px;
-    line-height: 15px;
+
 
  }
 
-  .header a{
-    text-decoration: none;
+ .logo-img h2 {
+     font-family: 'Big Shoulders Display', cursive;
+     letter-spacing: 8px;
+     padding: 0px 12px 8px 12px;
+     line-height: 15px;
+
+ }
+
+ .header a {
+     text-decoration: none;
  }
 
  .nav-icons li {
@@ -76,10 +48,10 @@
  }
 
  .nav-icons {
-        padding: 22px 0px 0px 0px;
+     padding: 22px 0px 0px 0px;
  }
 
- .nav-icons  a {
+ .nav-icons a {
      text-decoration: none;
      margin: 0px 20px;
      padding: 0 10px;
@@ -104,12 +76,30 @@
      left: 35px;
  }
 
- #close{
-    display: none;
+ .nav-icons img{
+    height: 25px;
+    width: 25px;
+ }
+
+ #close {
+     display: none;
+ }
+
+ .mob-hmaburger-menu img{
+    width: 35px;
+    height: 35px;
+    padding: 0 10px;
+ }
+
+ .mob-hmaburger-menu li{
+    list-style: none;
  }
    
- .mob-hmaburger-menu{
-    display: none;
+ .mob-hmaburger-menu {
+     display: none;
+
+     justify-content: center;
+     align-items: center;
  }
 
 
@@ -117,7 +107,6 @@
  .first-page {
      background-image: url(images/img-1.png);
      background-size: cover;
-
      height: 40vw;
      background-position: top 25% right 25%;
      padding: 0 80px;
@@ -148,9 +137,9 @@
 
  }
 
-  .first-page button{
-    background-color: #e3e3e3;
-}
+ .first-page button {
+     background-color: #e3e3e3;
+ }
 
 
 
@@ -172,7 +161,7 @@
 
  .fe-box:hover {
      box-shadow: 10px 10px 54px rgba(17, 5, 255, 0.01);
-    
+
  }
 
  .fe-box img {
@@ -180,7 +169,7 @@
      margin-bottom: 10px;
 
  }
- 
+
  .fe-box h6 {
      display: inline-block;
      padding: 9px 8px 11px 8px;
@@ -243,11 +232,11 @@
      cursor: pointer;
      transition: 0.2s ease;
      position: relative;
-    
+
  }
 
- .pro:hover{
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+ .pro:hover {
+     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
  }
 
 
@@ -256,8 +245,9 @@
  .pro img {
      max-width: 100%;
      transition: scale 400ms;
-     border-radius:25px ;
+     border-radius: 25px;
  }
+
  .pro img:hover {
      scale: 120%;
  }
@@ -298,19 +288,21 @@
      font-weight: 500;
      color: #088178;
      position: absolute;
-   
+
  }
- .pro .fe-cart{
-    bottom: 20px;
-    right: 10px;
+
+ .pro .fe-cart {
+     bottom: 20px;
+     right: 10px;
  }
- .pro .fe-fav{
-    bottom: 20px;
-    right: 70px;
+
+ .pro .fe-fav {
+     bottom: 20px;
+     right: 70px;
  }
 
 
- .pro .fe-cart:hover, 
+ .pro .fe-cart:hover,
  .pro .fe-fav:hover {
      background-color: #088178;
      color: #e8f6ea;
@@ -326,7 +318,7 @@
      width: 100%;
      height: 40vh;
      background-color: #2d2d2d;
-    
+
  }
 
  .banner h4 {
@@ -341,8 +333,8 @@
      color: rgb(255, 154, 3);
  }
 
- .banner .normal-btn{
-    margin: 20px 0px;
+ .banner .normal-btn {
+     margin: 20px 0px;
  }
 
  .newsletter {
@@ -377,8 +369,8 @@
  }
 
  .newsletter .form {
-    width: 40%;
-}
+     width: 40%;
+ }
 
 
  .newsletter input {
@@ -401,189 +393,431 @@
 
 
 
- .last-section{
-    border-top: 1px solid gray;
-    padding: 50px 40px 0px 40px;
-    background-color: #000;
-    color: white
+ .last-section {
+     border-top: 1px solid gray;
+     padding: 50px 40px 0px 40px;
+     background-color: #000;
+     color: white
  }
 
- .last-section .col{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
- }
-
- .last-section h4{
-    font-size: 20px;
-    padding-bottom: 12px;
-    
- }
- .last-section p{
-    font-size: 15px;
-    margin: 0 0 8px 0;
-
- }
- .last-section a{
-    font-size: 15px;
-   text-decoration: none;
-   color: #bbb8b8;
-   margin-bottom:10px ;
+ .last-section .col {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
 
  }
 
- .logo-section{ 
-    margin-bottom: 30px;
-    /* background-image: url(img/logo-4.png); */
-    background-color: #ffff;
-    color: #000;
-    border: 1px solid black;
- 
-    
+ .last-section h4 {
+     font-size: 20px;
+     padding-bottom: 12px;
+
+ }
+
+ .last-section p {
+     font-size: 15px;
+     margin: 0 0 8px 0;
+
+ }
+
+ .last-section a {
+     font-size: 15px;
+     text-decoration: none;
+     color: #bbb8b8;
+     margin-bottom: 10px;
+
+ }
+
+ .logo-section {
+     margin-bottom: 30px;
+     /* background-image: url(img/logo-4.png); */
+     background-color: #ffff;
+     color: #000;
+     border: 1px solid black;
+
+
  }
 
 
- .logo-section h1{
-    letter-spacing: 6px;
- 
-    font-size: 40px;
+ .logo-section h1 {
+     letter-spacing: 6px;
 
-   
+     font-size: 40px;
+
+
  }
 
- .logo-section h2{
-    font-family: 'Big Shoulders Display', cursive;
-    letter-spacing: 8px;
-    padding: 0px 12px 8px 12px;
-    line-height: 15px;
- }
- .last-section .social-section{
-    margin-top: 20px;
+ .logo-section h2 {
+     font-family: 'Big Shoulders Display', cursive;
+     letter-spacing: 8px;
+     padding: 0px 12px 8px 12px;
+     line-height: 15px;
  }
 
- .last-section  .icons .social-icon{
-    color:#bbb8b8 ;
-    padding-right: 12px;
-    cursor: pointer;
-    font-size: 25px;
-   
- }
- .last-section  .icons .social-icon:hover,
- .last-section a:hover{
-    color:chocolate ;
+ .last-section .social-section {
+     margin-top: 20px;
  }
 
- .last-section .copyright-section{
-    font-size: 12px;
-    padding-top: 20px;
-    width:100%;
-    text-align: center;
- }
- .last-section .copyright-section .myintro{
-    font-size: 10px;
-    width:100%;
-    text-align: center;
-    color: grey;
+ .last-section .icons .social-icon {
+     color: #bbb8b8;
+     padding-right: 12px;
+     cursor: pointer;
+     font-size: 25px;
+
  }
 
+ .last-section .icons .social-icon:hover,
+ .last-section a:hover {
+     color: chocolate;
+ }
+
+ .last-section .copyright-section {
+     font-size: 12px;
+     padding-top: 20px;
+     width: 100%;
+     text-align: center;
+ }
+
+ .last-section .copyright-section .myintro {
+     font-size: 10px;
+     width: 100%;
+     text-align: center;
+     color: grey;
+ }
 
 
 
- 
+
+
 
  /* SHOP PAGE */
- #next-btns{
-    text-align: center;
-   
- }
-
- #next-btns a{
- text-decoration: none;
- font-weight: 400;
- color: #000;
- border: 1px solid;
- padding: 10px 15px;
- margin: 0px 2px;
-background-color: #edeaea;
+ #next-btns {
+     text-align: center;
 
  }
- 
+
+ #next-btns a {
+     text-decoration: none;
+     font-weight: 400;
+     color: #000;
+     border: 1px solid;
+     padding: 10px 15px;
+     margin: 0px 2px;
+     background-color: #edeaea;
+
+ }
+
 
 
 
 
  /* SINGLE PRODUCT  */
 
- #pro-details{
-    display: flex;
-    padding: 50px 30px;
+ #pro-details {
+     display: flex;
+     padding: 50px 30px;
 
  }
 
- #pro-details .sin-prod-img{
-    width: 30%;
-    margin-right:50px ;
-    
+ #pro-details .sin-prod-img {
+     width: 30%;
+     margin-right: 50px;
+
  }
 
- .sm-img-col{
-    display: flex;
-    justify-content: space-between;
-   
+ .sm-img-col {
+     display: flex;
+     justify-content: space-between;
+
  }
 
- .sm-prod-img{
-    cursor: pointer;
-    margin: 0 2px 0 0;
-    
+ .sm-prod-img {
+     cursor: pointer;
+     margin: 0 2px 0 0;
+
  }
 
- #pro-details .sin-prod-details{
+ #pro-details .sin-prod-details {
      width: 50%;
-     padding-top: 30px;
+
  }
 
- #pro-details .sin-prod-details h4{
-    padding: 30px 0 10px 0px;
-    font-size: 20px;
- }
- #pro-details .sin-prod-details h2{
-   font-size: 26px;
- }
- #pro-details .sin-prod-details h6{
-   font-size: 15px;
+ #pro-details .sin-prod-details h4 {
+     padding: 20px 0 10px 0px;
+     font-size: 20px;
  }
 
- #pro-details .sin-prod-details select{
+ #pro-details .sin-prod-details h2 {
+     font-size: 26px;
+
+ }
+
+ #pro-details .sin-prod-details h6 {
+     font-size: 15px;
+     color: #cdcaca;
+     font-weight: 100;
+
+ }
+
+ #pro-details .sin-prod-details h5 {
+     margin: 0.5rem 0px;
+     font-size: 25px;
+     color: #817d7d;
+     font-weight: 400;
+
+ }
+
+ #pro-details .sin-prod-details select {
+     display: block;
+     padding: 12px 10px;
+     margin: 10px 0;
+ }
+
+
+
+ #pro-details .sin-prod-details .size-options {
+    
+     margin: 0rem 0.31rem 1rem 0;
+     position: relative;
+     text-align: center;
+    
+
+
+ }
+ #pro-details .sin-prod-details  .border{ 
+    border:2px solid black;
+ }
+
+ #pro-details .sin-prod-details .size-options label {
+     display: block;
+     padding: 15PX 15PX;
+     color: #000;
+     font-size: 15px;
+     line-height: 5px;
+     font-weight: 900;
+     text-align: center;
+     border:0.5px solid #d4d4d4;
+
+
+ }
+
+ #pro-details .sin-prod-details .size-options input {
+    opacity: 0;
+     position: absolute;
+     right: 0;
+     top: 0;
+
+ }
+
+ 
+ #pro-details .sin-prod-details .size-options input:hover {
+    border: 2px solid black;
+
+ }
+
+
+ #pro-details .sin-prod-details .Quantity-input {
+     width: 40px;
+     height: 40px;
+     padding-left: 10px;
+     margin-right: 10px;
+     font-size: 16px;
+ }
+
+
+ #pro-details .sin-prod-details input:focus {
+     outline: none;
+ }
+
+ #pro-details .sin-prod-details button {
+     border: 1px solid;
+ }
+
+ #pro-details .sin-prod-details span {
+     line-height: 25px;
+ }
+
+
+
+ #pro-details .sin-prod-details .Service-policy p {
+     font-size: 25px;
+     padding: 10px 10px;
+     border: 1px solid;
+ }
+
+ #pro-details .sin-prod-details .Service-policy span {
+     font-size: 12px;
+ }
+
+
+ #pro-details .sin-prod-details .Service-policy span::before {
+     content: '(';
+
+ }
+
+
+
+ #pro-details .sin-prod-details .Service-policy span::after {
+     content: ')';
+ }
+
+ #pro-details .sin-prod-details .Service-policy img {
+     position: relative;
+     top: 3px;
+     width: 20px;
+     height: 20px;
+ }
+
+ #pro-details .sin-prod-details .size-guide{
+        position: relative;
+        padding: .19rem;
+        border: .02rem solid #000;
+        margin: 10px 0;
+        list-style: none;
+}
+
+.hide-size-box{
+    display: none;
+}
+.show-size-box{
     display: block;
-    padding: 12px 10px;
-    margin:10px 0;
+}
+
+#pro-details .sin-prod-details .size-guide ul{
+    margin-top:5px;
+    overflow:hidden;
+    list-style:none;
+}
+
+#pro-details .sin-prod-details .size-guide .size-box-1{
+    flex-wrap: nowrap;
+    flex-direction:row;
+    padding: 0 10px;
+    text-align:left;
+    border-right:0.5px solid #d4d4d4;
+
+}
+#pro-details .sin-prod-details .size-guide .size-box-2{
+    width:50%;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    padding: 0 10px;
+    text-align:left;
+    
+
+}
+
+
+
+ #pro-details .sin-prod-details .size-guide .size-box-1:first-child{
+width: 50%;
+
+}
+
+
+ #pro-details .sin-prod-details .size-guide .size-box .size-details-head{
+    font-size: 25px;
+    font-weight: 400;
+ }
+ #pro-details .sin-prod-details .size-guide .size-box .size-details-body{
+  
+    width: 100%;
+    display: inline-block;
+    padding: .1rem 0 .12rem;
+    margin-bottom: .1rem;
+    border-bottom: .5px solid #d4d4d4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+        
+    
+    
  }
 
- #pro-details .sin-prod-details input{
-    width: 40px;
-    height: 40px;
-    padding-left: 10px;
-    margin-right: 10px;
-    font-size: 16px;
+
+
+
+ #pro-details .About-section .about-table {
+
+     position: relative;
+     height: 100%;
+     border: .02rem solid #000;
+
+
+ }
+ #pro-details .About-section .about-table ul{
+
+    padding: 20px 0 20px 0;
+
+
+ }
+ #pro-details .About-section .feature-box-1{
+    border-right:1px solid #d4d4d4;
+    
+    width: 50%;
+ }
+ #pro-details .About-section .feature-box-2{
+
+    width: 50%;
  }
 
- 
- #pro-details .sin-prod-details input:focus{
-    outline: none;
+ #pro-details .About-section .feature1 {
+     padding: 10px 10px;
+
  }
 
- #pro-details .sin-prod-details button{
-   border: 1px solid;
+ #pro-details .About-section .morefeatures-none{
+     display: none;
+
  }
 
- #pro-details .sin-prod-details span{
-    line-height: 25px;
+ #pro-details .About-section .showmorefeatures{
+    display: block;
+ }
+
+
+ #pro-details .About-section .featurehead {
+     font-size: 20px;
+     font-weight: 600;
+ }
+ #pro-details .About-section .featurebody {
+    width: 100%;
+    display: inline-block;
+    padding: .1rem 0 .12rem;
+    margin-bottom: .1rem;
+    border-bottom: .5px solid #d4d4d4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
  }
 
 
 
+ #pro-details .About-section .hide {
+    display: none;
+}
+ #pro-details .About-section .show {
+    display: flex;
+}
+ #pro-details .About-section .show-more-btn {
+     border-top: 1px solid;
+     font-size: 15px;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 30px;
+     padding: 0 5px;
+     box-sizing: border-box;
+
+
+ }
+
+
+ #pro-details .About-section .show-more-btn img{
+    height: 70%;
+}
+ #pro-details .About-section .hide-more-btn img{
+    height: 70%;
+}
 
 
 
@@ -622,274 +856,287 @@ background-color: #edeaea;
 
 
 
- 
+
 
  /* MEDIA QUERIES */
 
- @media(max-width:799px){
+ @media(max-width:799px) {
 
-    
-    .nav-icons ul{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #fff;
-        box-shadow: 0 40px 60ox rgba(0, 0, 0, 0.1);
-        padding: 50px 0 0 0px;
-        transition:0.3s ;
+
+     .nav-icons ul {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: flex-start;
+         position: fixed;
+         top: 0;
+         right: -300px;
+         height: 100vh;
+         width: 300px;
+         background-color: #fff;
+         box-shadow: 0 40px 60ox rgba(0, 0, 0, 0.1);
+         padding: 50px 0 0 0px;
+         transition: 0.3s;
      }
 
-     #navbar.active{
-        right: 0px;
+     #navbar.active {
+         right: 0px;
      }
 
-     .nav-icons ul li{
-        margin-bottom: 25px;
+     .nav-icons ul li {
+         margin-bottom: 25px;
      }
 
-     .mob-hmaburger-menu{
-        display: flex;
+     .mob-hmaburger-menu {
+         display: flex;
      }
 
-     .mob-hmaburger-menu i{
-        color: #000;
+     .mob-hmaburger-menu i {
+         color: #000;
          padding: 15px 15px 0px 10px;
      }
 
 
-     #lg-bg{
-        display: none;
+     #lg-bg {
+         display: none;
      }
 
-     #close{
-        display: flex;
-        position: absolute;
-        top:15px ;
-        left: 230px;
-       
+     #close {
+         display: flex;
+         position: absolute;
+         top: 15px;
+         left: 230px;
+
      }
 
 
 
-     #close .material-symbols-outlined{
-        font-size: 30px;
+     #close .material-symbols-outlined {
+         font-size: 30px;
      }
 
      .first-page {
-        height: 40vw;
-        background-position: top 25% right 25%;
-      
-    }
+         height: 40vw;
+         background-position: top 25% right 25%;
 
-     
+     }
+
+
 
      .first-page {
-     background-repeat: no-repeat;
-     background-position: top 30% right 30%;
-     padding: 0 20px; 
-     
- }
+         background-repeat: no-repeat;
+         background-position: top 30% right 30%;
+         padding: 0 20px;
 
-    
- .first-page h1 {
-     font-size: 30px;
-     color: rgb(244, 156, 23);
- }
-
- .first-page h2 {
-     font-size: 25px;
+     }
 
 
- }
+     .first-page h1 {
+         font-size: 30px;
+         color: rgb(244, 156, 23);
+     }
 
- .first-page h4 {
-     font-size: 15px;
-
- }
-
- .first-page p {
-    font-size: 20px;
-
-}
+     .first-page h2 {
+         font-size: 25px;
 
 
+     }
 
- .pro {
-    width: calc(40% - 0px);
-    justify-content: center;
-   
-} 
-.pro .fe {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  
-}
+     .first-page h4 {
+         font-size: 15px;
 
-.pro .fe-fav {
-    bottom: 10px;
-    right: 50px;
-}
-.pro .fe-cart {
-    bottom: 10px;
-    right: 10px;
-}
+     }
 
+     .first-page p {
+         font-size: 20px;
 
-.banner {  
-height: 15vh;
-}
-
-
-.banner h4 {
-    font-size: 28px;
-    letter-spacing: 1px;
-}
-
-.newsletter .form {
-    width: 100%;
-}
-
-.newstext {
-    margin: 0 0 15px 0;
-
-}
-
- }
+     }
 
 
 
+     .pro {
+         width: calc(40% - 0px);
+         justify-content: center;
 
- @media(max-width:477px){
+     }
 
-    .mob-hmaburger-menu i {
-        padding: 20px 15px 0px 10px;
-    }
-    .first-page {
-        background-position: top 30% right 55%;
-        padding: 0px 135px 0pc 10px;
-        height: 110vw;
-    }
+     .pro .fe {
+         width: 30px;
+         height: 30px;
+         line-height: 30px;
 
+     }
 
-    .first-page button {
-       padding: 10px 20px;
-    }
+     .pro .fe-fav {
+         bottom: 10px;
+         right: 50px;
+     }
 
-
-    .first-page h1 {
-        font-size: 16px;
-      
-    }
-   
-    .first-page h2 {
-        font-size: 18px;
-   
-   
-    }
-   
-    .first-page h4 {
-        font-size: 14px;
-   
-    }
-   
-    .first-page p {
-        font-size: 15px;
-        margin: 10px 0;
-   
-    }
+     .pro .fe-cart {
+         bottom: 10px;
+         right: 10px;
+     }
 
 
-    .productPage1 {
-        padding: 0px ;
-    }
-    
-
-    .pro {
-        width: calc(80% - 0px);
-    }
-    .productPage1 h2 {
-        font-size: 30px;
-    }
-    .banner {
-        height: 10vh;
-    }
-
-    .banner h4 {
-        font-size: 12px;
-        letter-spacing: 0px;
-    }
+     .banner {
+         height: 15vh;
+     }
 
 
-    .banner .normal-btn {
-        margin: 5px 0px;
-        padding: 10px 20px;
-    }
+     .banner h4 {
+         font-size: 28px;
+         letter-spacing: 1px;
+     }
 
-    .newstext { 
-        padding: 0px 10px;
-    }
+     .newsletter .form {
+         width: 100%;
+     }
 
+     .newstext {
+         margin: 0 0 15px 0;
 
-    .newstext h4 {
-        font-size: 20px;
-    }
-
-    .newstext p {
-        font-size: 10px;
-    }
-
-    .newsletter .form {
-        width: 100%;
-        padding: 0px 10px;
-    }
-
-    .newsletter input {
-      padding: 0px 10px;
-        width: 50%;
-       
-    }
-
-    .newsletter button {
-        padding: 8px 7px;
-    }
-
-    .last-section {
-     
-        padding: 10px 10px 0px 10px;
-      
-    }
-
-
-    .last-section .col {
-       
-        margin: 10px 0;
-    }
-
-
-    /* SINGLE PRODUCT */
-
-    #pro-details {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #pro-details .sin-prod-img{
-        width: 100%;
-    }
-
-
-    #pro-details .sin-prod-details {
-        width: 100%;
-        
-    }
-
+     }
 
  }
 
+
+
+
+ @media(max-width:477px) {
+
+     .mob-hmaburger-menu i {
+         padding: 20px 15px 0px 10px;
+     }
+
+     .first-page {
+         background-position: top 30% right 55%;
+         padding: 0px 135px 0pc 10px;
+         height: 110vw;
+     }
+
+
+     .first-page button {
+         padding: 10px 20px;
+     }
+
+
+     .first-page h1 {
+         font-size: 16px;
+
+     }
+
+     .first-page h2 {
+         font-size: 18px;
+
+
+     }
+
+     .first-page h4 {
+         font-size: 14px;
+
+     }
+
+     .first-page p {
+         font-size: 15px;
+         margin: 10px 0;
+
+     }
+
+
+     .productPage1 {
+         padding: 0px;
+     }
+
+
+     .pro {
+         width: calc(80% - 0px);
+     }
+
+     .productPage1 h2 {
+         font-size: 30px;
+     }
+
+     .banner {
+         height: 10vh;
+     }
+
+     .banner h4 {
+         font-size: 12px;
+         letter-spacing: 0px;
+     }
+
+
+     .banner .normal-btn {
+         margin: 5px 0px;
+         padding: 10px 20px;
+     }
+
+     .newstext {
+         padding: 0px 10px;
+     }
+
+
+     .newstext h4 {
+         font-size: 20px;
+     }
+
+     .newstext p {
+         font-size: 10px;
+     }
+
+     .newsletter .form {
+         width: 100%;
+         padding: 0px 10px;
+     }
+
+     .newsletter input {
+         padding: 0px 10px;
+         width: 50%;
+
+     }
+
+     .newsletter button {
+         padding: 8px 7px;
+     }
+
+     .last-section {
+
+         padding: 10px 10px 0px 10px;
+
+     }
+
+
+     .last-section .col {
+
+         margin: 10px 0;
+     }
+
+
+     /* SINGLE PRODUCT */
+
+     #pro-details {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #pro-details .sin-prod-img {
+         width: 100%;
+     }
+
+
+     #pro-details .sin-prod-details {
+         width: 100%;
+
+     }
+
+     #pro-details .sin-prod-details .Service-policy p {
+         font-size: 20px;
+     }
+
+     #pro-details .sin-prod-details .Service-policy span {
+         font-size: 15px;
+         padding: 0 0 0 20px;
+     }
+
+
+ }

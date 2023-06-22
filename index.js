@@ -14,6 +14,7 @@ if (close) {
 
 
 
+
 var mainImg = document.getElementById("MainImg")
 var smallImg = document.getElementsByClassName("sm-img")
 
@@ -30,3 +31,88 @@ smallImg[2].onclick = function () {
 smallImg[3].onclick = function () {
     mainImg.src = smallImg[3].src;
 }
+
+
+
+
+
+const knowmore = document.getElementById('showknowmorebtn');
+const hidemore = document.getElementById('hideknowmorebtn');
+const morefeatures = document.getElementById('more-features');
+if (knowmore) {
+    knowmore.addEventListener('click', () => {
+        morefeatures.classList.add('showmorefeatures');
+        knowmore.classList.add('hide');
+        hidemore.classList.add('show');
+        hidemore.classList.remove('hide');
+        knowmore.classList.remove('show');
+        
+    })
+
+}
+if (hidemore) {
+    hidemore.addEventListener('click', () => {
+        morefeatures.classList.remove('showmorefeatures');
+        hidemore.classList.remove('show');
+        hidemore.classList.add('hide');
+        knowmore.classList.add('show');
+        
+    })
+
+}
+
+
+
+const xxl = document.getElementById('xxl');
+const xl = document.getElementById('xl');
+const l = document.getElementById('l');
+const m = document.getElementById('m');
+const s = document.getElementById('s');
+const sizexxl = document.getElementById('size-xxl');
+const sizexl = document.getElementById('size-xl');
+const sizel = document.getElementById('size-l');
+const sizem = document.getElementById('size-m');
+const sizes = document.getElementById('size-s');
+
+if (xxl) {
+    xxl.addEventListener('click', () => {
+    sizexxl.classList.toggle('show-size-box');
+    xxl.classList.toggle('border');
+    })
+    
+}
+
+if (xl) {
+    xl.addEventListener('click', () => {
+        sizexl.classList.toggle('show-size-box');
+        xl.classList.toggle('border');
+        
+  
+    })
+    
+}
+if (l) {
+    l.addEventListener('click', () => {
+        sizel.classList.toggle('show-size-box');
+        l.classList.toggle('border');
+  
+    })
+    
+}
+if (m) {
+    m.addEventListener('click', () => {
+        sizem.classList.toggle('show-size-box');
+        m.classList.toggle('border');
+  
+    })
+    
+}
+if (s) {
+    s.addEventListener('click', () => {
+        sizes.classList.toggle('show-size-box');
+        s.classList.toggle('border');
+  
+    })
+    
+}
+

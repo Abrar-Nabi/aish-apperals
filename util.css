@@ -18,6 +18,9 @@
 .justify-content-spacebetween{
     justify-content: space-between;
 }
+.justify-content-spacearound{
+    justify-content: space-around;
+}
 
 .flex-di-column{
     flex-direction: column;
