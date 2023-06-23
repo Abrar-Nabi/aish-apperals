@@ -73,46 +73,56 @@ const sizexl = document.getElementById('size-xl');
 const sizel = document.getElementById('size-l');
 const sizem = document.getElementById('size-m');
 const sizes = document.getElementById('size-s');
-
+const sizeBox = {
+    1 : [s, sizes], 2 : [m, sizem], 3 : [l, sizel], 4 : [xl, sizexl], 5 : [xxl, sizexxl]
+};
 if (xxl) {
     xxl.addEventListener('click', () => {
+    toggleSizeButtons();
     sizexxl.classList.toggle('show-size-box');
     xxl.classList.toggle('border');
     })
-    
 }
 
 if (xl) {
     xl.addEventListener('click', () => {
+        toggleSizeButtons();
         sizexl.classList.toggle('show-size-box');
         xl.classList.toggle('border');
-        
-  
     })
     
 }
 if (l) {
     l.addEventListener('click', () => {
+        toggleSizeButtons();
         sizel.classList.toggle('show-size-box');
         l.classList.toggle('border');
-  
     })
     
 }
 if (m) {
     m.addEventListener('click', () => {
+        toggleSizeButtons();
         sizem.classList.toggle('show-size-box');
         m.classList.toggle('border');
-  
     })
     
 }
 if (s) {
     s.addEventListener('click', () => {
+        toggleSizeButtons();
         sizes.classList.toggle('show-size-box');
         s.classList.toggle('border');
   
     })
     
+}
+function toggleSizeButtons() {
+    for (const key in sizeBox) {
+        sizeBox[key].forEach(element => {
+           element.classList.remove('border');
+           element.classList.remove('show-size-box');
+        });
+    }
 }
 
